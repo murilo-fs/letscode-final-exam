@@ -61,7 +61,7 @@ public class Main {
             fromSymbol = switch (from) {
                 case "celsius" -> "°C";
                 case "fahrenheit" -> "°F";
-                case "kelvin" -> "K = ";
+                case "kelvin" -> "K";
                 default -> throw new Exception("Wrong temperature origin scale");
             };
         } catch (Exception $e) {
